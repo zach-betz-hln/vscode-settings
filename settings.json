@@ -9,5 +9,17 @@
     "editor.tabSize": 2,
     "[json]": {
         "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "files.associations": {
+        "Dockerfile-local": "dockerfile"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
     }
 }
