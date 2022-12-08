@@ -3,7 +3,6 @@
     "workbench.startupEditor": "none",
     "files.autoSave": "afterDelay",
     "files.autoSaveDelay": 0,
-    "editor.minimap.autohide": true,
     "editor.wordWrap": "on",
     "editor.wordWrapColumn": 120,
     "editor.tabSize": 2,
@@ -21,5 +20,7 @@
     },
     "[jsonc]": {
         "editor.defaultFormatter": "vscode.json-language-features"
-    }
+    },
+    "editor.minimap.enabled": false,
+    "files.insertFinalNewline": true
 }
