@@ -1,46 +1,48 @@
 {
-    "security.workspace.trust.untrustedFiles": "open",
-    "workbench.startupEditor": "none",
-    "files.autoSave": "afterDelay",
-    "files.autoSaveDelay": 0,
-    "editor.wordWrap": "on",
-    "editor.wordWrapColumn": 120,
-    "editor.tabSize": 2,
-    "[json]": {
-        "editor.defaultFormatter": "vscode.json-language-features"
-    },
-    "files.associations": {
-        "Dockerfile-local": "dockerfile"
-    },
-    "[html]": {
-        "editor.defaultFormatter": "vscode.html-language-features"
-    },
-    "[typescriptreact]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[jsonc]": {
-        "editor.defaultFormatter": "vscode.json-language-features"
-    },
-    "files.insertFinalNewline": true,
-    "editor.formatOnSave": true,
-    "typescript.updateImportsOnFileMove.enabled": "always",
-    "[typescript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[css]": {
-        "editor.defaultFormatter": "vscode.css-language-features"
-    },
-    "[javascript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[markdown]": {
-        "editor.unicodeHighlight.ambiguousCharacters": true,
-        "editor.unicodeHighlight.invisibleCharacters": true,
-        "diffEditor.ignoreTrimWhitespace": false,
-        "editor.formatOnSave": false,
-    },
-    "editor.accessibilitySupport": "off",
-    "editor.minimap.enabled": false,
-    "prettier.printWidth": 120,
-    "prettier.singleQuote": true,
+  "[css]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[markdown]": {
+    "editor.unicodeHighlight.ambiguousCharacters": true,
+    "editor.unicodeHighlight.invisibleCharacters": true,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.formatOnSave": false
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.accessibilitySupport": "off",
+  "editor.formatOnSave": true,
+  "editor.minimap.enabled": false,
+  "editor.renderWhitespace": "none",
+  "editor.tabSize": 2,
+  "editor.wordWrap": "on",
+  "editor.wordWrapColumn": 120,
+  "extensions.autoUpdate": false,
+  "files.associations": {
+    "Dockerfile-local": "dockerfile"
+  },
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 0,
+  "files.insertFinalNewline": true,
+  "prettier.printWidth": 120,
+  "prettier.singleQuote": true,
+  "security.workspace.trust.untrustedFiles": "open",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "workbench.startupEditor": "none"
 }
