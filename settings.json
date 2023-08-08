@@ -2,6 +2,9 @@
   "[css]": {
     "editor.defaultFormatter": "vscode.css-language-features"
   },
+  "[dockercompose]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -35,14 +38,29 @@
   "editor.wordWrapColumn": 120,
   "extensions.autoUpdate": false,
   "files.associations": {
-    "Dockerfile-local": "dockerfile"
+    "Dockerfile-local": "dockerfile",
+    ".secrets": "shellscript"
   },
   "files.autoSave": "afterDelay",
   "files.autoSaveDelay": 0,
   "files.insertFinalNewline": true,
   "java.compile.nullAnalysis.mode": "automatic",
+  "prettier.arrowParens": "always",
+  "prettier.bracketSpacing": true,
+  "prettier.endOfLine": "auto",
+  "prettier.htmlWhitespaceSensitivity": "css",
+  "prettier.insertPragma": false,
+  "prettier.jsxSingleQuote": false,
   "prettier.printWidth": 120,
+  "prettier.proseWrap": "preserve",
+  "prettier.quoteProps": "as-needed",
+  "prettier.requirePragma": false,
+  "prettier.semi": true,
   "prettier.singleQuote": true,
+  "prettier.tabWidth": 2,
+  "prettier.trailingComma": "none",
+  "prettier.useTabs": false,
+  "redhat.telemetry.enabled": true,
   "security.workspace.trust.untrustedFiles": "open",
   "typescript.updateImportsOnFileMove.enabled": "always",
   "workbench.startupEditor": "none"
