@@ -6,7 +6,8 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[html]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "vscode.html-language-features",
+    "editor.formatOnSave": false
   },
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -36,10 +37,12 @@
   "editor.tabSize": 2,
   "editor.wordWrap": "on",
   "editor.wordWrapColumn": 120,
-  "extensions.autoUpdate": false,
+  "extensions.autoUpdate": "onlySelectedExtensions",
   "files.associations": {
     "Dockerfile-local": "dockerfile",
-    ".secrets": "shellscript"
+    ".secrets": "shellscript",
+    ".env": "shellscript",
+    "*.ftl": "html"
   },
   "files.autoSave": "afterDelay",
   "files.autoSaveDelay": 0,
@@ -63,5 +66,15 @@
   "redhat.telemetry.enabled": true,
   "security.workspace.trust.untrustedFiles": "open",
   "typescript.updateImportsOnFileMove.enabled": "always",
-  "workbench.startupEditor": "none"
+  "workbench.startupEditor": "none",
+  "gitlens.advanced.messages": {
+    "suppressRebaseSwitchToTextWarning": true
+  },
+  "workbench.editorAssociations": {
+    "git-rebase-todo": "default"
+  },
+  "git.openRepositoryInParentFolders": "never",
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
 }
