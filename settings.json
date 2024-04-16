@@ -76,5 +76,9 @@
   "workbench.editorAssociations": {
     "git-rebase-todo": "default"
   },
-  "workbench.startupEditor": "none"
+  "workbench.startupEditor": "none",
+  "[snippets]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "markdown.extension.orderedList.autoRenumber": false
 }
