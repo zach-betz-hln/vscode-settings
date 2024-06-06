@@ -80,5 +80,7 @@
   "[snippets]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "markdown.extension.orderedList.autoRenumber": false
+  "markdown.extension.orderedList.autoRenumber": false,
+  "update.mode": "manual",
+  "typescript.tsserver.experimental.useVsCodeWatcher": false
 }
