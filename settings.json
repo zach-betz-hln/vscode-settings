@@ -1,13 +1,12 @@
 {
   "[css]": {
-    "editor.defaultFormatter": "vscode.css-language-features"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[dockercompose]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[html]": {
-    "editor.defaultFormatter": "vscode.html-language-features",
-    "editor.formatOnSave": false
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -16,7 +15,7 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[json]": {
-    "editor.defaultFormatter": "vscode.json-language-features"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[jsonc]": {
     "editor.defaultFormatter": "vscode.json-language-features"
@@ -82,5 +81,9 @@
   },
   "markdown.extension.orderedList.autoRenumber": false,
   "update.mode": "manual",
-  "typescript.tsserver.experimental.useVsCodeWatcher": false
+  "typescript.tsserver.experimental.useVsCodeWatcher": false,
+  "shellcheck.ignorePatterns": {
+    "**/*.env*": true,
+    "**/*.secrets*": true
+  }
 }
